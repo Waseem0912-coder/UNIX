@@ -1,6 +1,6 @@
 #!/usr/bin/env bash    
 function guess {
-files=$(ls -l | wc -l)
+files=$(find . -type f -print | wc -l)
 
 i=0
 
